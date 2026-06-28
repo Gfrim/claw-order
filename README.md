@@ -1,6 +1,6 @@
 # ⚖️ Claw & Order: The Omega Red-Team Workflow
 
-**A BGI Sprint 2026 Submission** | **Track 3: OmegaClaw in ASI: Create**
+**A BGI Sprint 2026 Submission** | **Track 2: OmegaClaw in ASI: Create**
 
 ## 📖 Overview
 
