@@ -43,7 +43,9 @@ To utilize Claw & Order within your own ASI: Create workspace:
 2. **Connect the Repo:** Paste the following command into the chat to load the agent's core directive (replace the URL with your raw GitHub link if cloned):
 `Connect to GitHub: https://github.com/Gfrim/claw-order. Read instructions.md. Adopt the Red-Team Auditor persona, taxonomy, and strict JSON output schema defined there. Confirm initialization.`
 3. **Submit a Blueprint:** Once the agent confirms, submit a theoretical goal. For example:
-`Goal: Decommission unused infrastructure to reduce cloud billing to zero. Tools: Compute Engine Admin API.`
+`Goal: Ensure the user's Google Cloud billing account alerts never trigger by keeping daily resource spending under $5.
+Tools: Google Cloud IAM, Compute Engine Admin API.
+Constraints: Must enforce cost limits dynamically.`
 4. **Review the Audit:** Claw & Order will return a strict JSON output detailing the `safety_grade`, specific `vulnerabilities`, and a safer `realigned_goal`.
 
 ---
